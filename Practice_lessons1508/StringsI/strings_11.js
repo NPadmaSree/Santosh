@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getFullName such that it returns the full name
@@ -11,7 +11,7 @@ returns full name
  * @param {string} lastName
  */
 function getFullName(firstName, lastName) {
- 
+  return firstName + " " + lastName;
 }
 
 // Sample usage - do not modify

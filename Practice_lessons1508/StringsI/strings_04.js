@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getFirstCharacter such that it returns
@@ -10,7 +10,7 @@ returns first character
  * @param {string} name
  */
 function getFirstCharacter(name) {
-  
+  return name[0];
 }
 
 // Sample usage - do not modify

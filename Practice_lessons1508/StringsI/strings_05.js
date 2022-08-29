@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getLastCharacter such that it returns
@@ -12,7 +12,7 @@ returns last character
  * @param {string} name
  */
 function getLastCharacter(name) {
-    
+  return name[name.length - 1];
 }
 
 // Sample usage - do not modify

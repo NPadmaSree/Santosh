@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getCharCount such that it returns the number of
@@ -11,7 +11,7 @@ returns the correct length
  * @param {string} str
  */
 function getCharCount(str) {
- 
+  return str.length;
 }
 
 // Sample usage - do not modify

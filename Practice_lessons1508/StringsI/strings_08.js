@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function concatInitials such that it returns the firstNameInitial followed by
@@ -13,7 +13,7 @@ concats initials
  * @param {string} lastNameInitial
  */
 function concatInitials(firstNameInitial, lastNameInitial) {
-  
+  return firstNameInitial + lastNameInitial;
 }
 
 // Sample usage - do not modify

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function shoutMyName such that it returns the name parameter
@@ -10,7 +10,7 @@ makes string uppercase
  * @param {string} name
  */
 function shoutMyName(name) {
- 
+  return name.toUpperCase();
 }
 
 // Sample usage - do not modify

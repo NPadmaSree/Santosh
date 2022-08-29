@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function sayHello such that it interpolates the variable
@@ -11,7 +11,7 @@ returns correct message
  * @param {string} name
  */
 function sayHello(name) {
-
+  return "Hello " + name;
 }
 
 // Sample usage - do not modify

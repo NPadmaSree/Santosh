@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 /**
 Complete the function capitalize such that it capitalizes the name parameter it receives.
 There's no capitalize method in JavaScript, so you have to write it yourself.
@@ -13,7 +13,9 @@ returns capitalized word
  * @param {string} word
  */
 function capitalize(word) {
-
+  return (
+    word[0].toLocaleUpperCase() + word.substring(1, word.length).toLowerCase()
+  );
 }
 
 // Sample usage - do not modify
