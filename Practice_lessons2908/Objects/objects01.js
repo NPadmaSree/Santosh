@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getProductDetails such that it returns an object with the following properties:
@@ -11,7 +11,12 @@ Give these properties any value you'd like, as long as it fits the expected retu
 **/
 
 function getProductDetails() {
-
+  const cars = {
+    id: 1,
+    title: ".volvo",
+    instock: true,
+  };
+  return cars;
 }
 
 // Sample usage - do not modify

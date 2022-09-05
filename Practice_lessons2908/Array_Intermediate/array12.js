@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getPositiveTemperatures such that it returns an array containing the positive temperatures
@@ -8,7 +8,10 @@ Complete the function getPositiveTemperatures such that it returns an array cont
  * @param {number[]} temperatures
  */
 function getPositiveTemperatures(temperatures) {
-
+  let result = temperatures.filter(function (temperature) {
+    return temperature >= 0;
+  });
+  return result;
 }
 
 // Sample usage - do not modify

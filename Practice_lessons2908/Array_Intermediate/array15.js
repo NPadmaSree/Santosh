@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getOddYears such that it returns all the years that are odd
@@ -8,7 +8,9 @@ from the years parameter it receives.
  * @param {number[]} years
  */
 function getOddYears(years) {
-
+  return years.filter(function (year) {
+    if (year % 2 != 0) return year;
+  });
 }
 
 // Sample usage - do not modify

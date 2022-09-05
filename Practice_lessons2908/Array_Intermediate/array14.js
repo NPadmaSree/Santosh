@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getYear such that it returns the searchYear (passed as 2nd parameter) when it's found in the array.
@@ -9,7 +9,9 @@ Otherwise, it should return undefined.
  * @param {number} searchYear
  */
 function getYear(years, searchYear) {
-
+  return years.find(function (year) {
+    return year == searchYear;
+  });
 }
 
 // Sample usage - do not modify
